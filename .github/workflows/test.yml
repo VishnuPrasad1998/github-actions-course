@@ -10,6 +10,6 @@ jobs:
           node-version: '14.17.0'
       - name: Build react
         run: |
-          npm install
-          npm run build
+          yarn
+          yarn build
       - run: node -v
